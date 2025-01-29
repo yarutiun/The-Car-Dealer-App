@@ -51,7 +51,4 @@ Before running the project, ensure you have the following installed:
    ```bash
    http://localhost:3000
 
-## Screenshots
 
-<img src="./images/Screenshot%202025-01-29%20at%2012.21.26.png" alt="Alt text" width="500" height="auto">
-<img src="./images/Screenshot%202025-01-29%20at%2012.21.56.png" alt="Alt text" width="500" height="auto">
