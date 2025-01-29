@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Dealer Filter
 
-## Getting Started
+A Next.js web application that allows users to filter and view vehicle models based on their make and model year. The app fetches car make and model data from an external API and will enable users to navigate through different vehicle options.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Vehicle Make Filter: Select a vehicle make from a dynamically fetched list.
+- Model Year Filter: Choose a model year to narrow down car options.
+- Vehicle Model Display: A list of available models is displayed after selecting a make and year.
+- Responsive Design: The app is fully responsive and optimized for mobile and desktop use.
+- Integration with External API: Fetches data from the National Highway Traffic Safety Administration (NHTSA) API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js (for SSR and static site generation)
+- TypeScript (for type safety)
+- React (for UI components)
+- Tailwind CSS (for styling)
+- Prettier (for code formatting)
+- ESLint (for linting)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+Before running the project, ensure you have the following installed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [TypeScript](https://www.typescriptlang.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Steps to Run the Project Locally
 
-## Deploy on Vercel
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/car-dealer-filter.git
+  
+2. Navigate to the directory:
+   ```bash
+   cd car_dealer_app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install all dependencies:
+   ```bash
+   npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Run the server locally:
+   ```bash
+   npm run dev
+
+5. Open the application in your browser:
+   ```bash
+   http://localhost:3000
+
+## Screenshots
+
+<img src="./images/Screenshot%202025-01-29%20at%2012.21.26.png" alt="Alt text" width="500" height="auto">
+<img src="./images/Screenshot%202025-01-29%20at%2012.21.56.png" alt="Alt text" width="500" height="auto">
