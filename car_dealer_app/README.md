@@ -8,7 +8,6 @@ A Next.js web application that allows users to filter and view vehicle models ba
 - Model Year Filter: Choose a model year to narrow down car options.
 - Vehicle Model Display: A list of available models is displayed after selecting a make and year.
 - Responsive Design: The app is fully responsive and optimized for mobile and desktop use.
-- Integration with External API: Fetches data from the National Highway Traffic Safety Administration (NHTSA) API.
 
 ## Technologies Used
 
@@ -51,4 +50,6 @@ Before running the project, ensure you have the following installed:
    ```bash
    http://localhost:3000
 
+## Screenshots
 
+<img src="./images/Screenshot%202025-01-29%20at%2012.21.26.png" alt="Alt text" width="500" height="auto"> <img src="./images/Screenshot%202025-01-29%20at%2012.21.56.png" alt="Alt text" width="500" height="auto">
